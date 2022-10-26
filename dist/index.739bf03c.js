@@ -532,8 +532,9 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"ebWYT":[function(require,module,exports) {
-// import _ from 'lodash';
-// console.log(_.concat([10, 15, 20], [40, 21]));
+var _mobileMenu = require("./mobile-menu");
+
+},{"./mobile-menu":"gWx5g"}],"gWx5g":[function(require,module,exports) {
 $(document).ready(function() {
     $(".c-header__burger").click(function(event) {
         $(".c-header__burger,.c-header__menu").toggleClass("active");
