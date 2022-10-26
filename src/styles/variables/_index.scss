@@ -1,0 +1,34 @@
+//Fonts
+
+$font-family-base: 'Roboto', sans-serif;
+
+//Colors
+
+$color-white: #fff;
+$color-black: #000;
+$color-gray: #e5e5e5;
+$color-gray-2: #a0a0a0;
+
+// Grid Config
+
+$grid-gutter: 15px;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 568px,
+  md: 768px,
+  lg: 1124px,
+  xl: 1280px,
+);
+
+$container-max-widths: (
+  sm: 522px,
+  md: 708px,
+  lg: 944px,
+  xl: 1333px,
+);
+$container-max-widths-sm: (
+  sm: 522px,
+  md: 708px,
+  lg: 944px,
+  xl: 970px,
+);
