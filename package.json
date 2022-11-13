@@ -2,9 +2,12 @@
   "name": "project-1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "homepage": "https://suvorovnikita.github.io/project-1/",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /project-1/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +18,9 @@
     "parcel": "^2.7.0"
   },
   "dependencies": {
-    "reseter.css": "^2.0.0"
+    "gh-pages": "^4.0.0",
+    "jquery": "^3.6.1",
+    "reseter.css": "^2.0.0",
+    "slick-carousel": "^1.8.1"
   }
 }

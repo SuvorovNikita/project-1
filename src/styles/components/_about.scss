@@ -1,0 +1,45 @@
+.c-about {
+  padding-bottom: 39px;
+
+  &__title {
+    @include typo-34;
+    color: $color-black;
+    margin-bottom: 44px;
+  }
+
+  &__subtitle {
+    @include typo-13;
+    text-transform: uppercase;
+    color: $color-black;
+    margin-bottom: 121px;
+
+    @include media-down(md) {
+      margin-bottom: 80px;
+    }
+  }
+
+  .desing {
+    padding: 120px 0;
+    background-color: $color-mobile;
+
+    @include media-down(md) {
+      padding: 80px 0;
+    }
+
+    &__logo {
+      margin-bottom: 24px;
+    }
+
+    &__title {
+      @include typo-43;
+      color: $color-white;
+      margin-bottom: 23px;
+    }
+
+    &__subtitle {
+      @include typo-14;
+      letter-spacing: 0.8px;
+      color: $color-white;
+    }
+  }
+}

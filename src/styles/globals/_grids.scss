@@ -36,21 +36,6 @@
   flex-flow: row wrap;
 }
 
-.row-alt {
-  $root: &;
-  margin-left: -#{$grid-gutter};
-  margin-right: -#{$grid-gutter};
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.row-no-wrap {
-  $root: &;
-  margin-left: -#{$grid-gutter};
-  margin-right: -#{$grid-gutter};
-  display: flex;
-}
-
 .justify-center {
   justify-content: center;
 }

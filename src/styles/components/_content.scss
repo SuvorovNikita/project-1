@@ -1,0 +1,30 @@
+.c-content {
+  padding-bottom: 197px;
+
+  @include media-down(md) {
+    padding-bottom: 80px;
+  }
+
+  &__title {
+    @include typo-h1;
+    color: $color-white;
+    margin-top: 189px;
+    margin-bottom: 0;
+
+    @include media-down(md) {
+      margin-top: 80px;
+    }
+  }
+
+  &__subtext {
+    @include typo-15;
+    color: $color-white;
+    margin-top: 12px;
+  }
+
+  &__text {
+    @include typo-13;
+    color: $color-white;
+    margin-top: 28px;
+  }
+}

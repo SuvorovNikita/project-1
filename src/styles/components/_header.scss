@@ -12,8 +12,10 @@
 
 html,
 body {
-  height: 100%;
+  background-color: $color-gray;
   font-family: $font-family-base;
+  scroll-behavior: smooth;
+
   @media (max-width: 767px) {
     &.lock {
       overflow: hidden;
@@ -124,6 +126,7 @@ body {
       padding: 70px 10px 20px 10px;
       transition: all 0.3s ease 0s;
     }
+
     &.active {
       top: 0;
     }
@@ -153,12 +156,10 @@ body {
     text-decoration: none;
     color: $color-black;
     @include typo-13;
-  }
-}
+    transition: all ease-in-out 0.3s;
 
-.content {
-  padding: 100px 0 0 0;
-  &__text {
-    font-size: 16px;
+    &:hover {
+      color: $color-gray-3;
+    }
   }
 }

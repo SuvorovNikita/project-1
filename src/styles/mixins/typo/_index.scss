@@ -1,12 +1,77 @@
 @use '../../variables/index';
 
-@mixin typo-13 {
+@mixin typo-h1 {
   font-family: $font-family-base;
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
-  line-height: 15px;
-  letter-spacing: 1.4px;
+  font-size: 43px;
+  line-height: 46px;
+}
+
+@mixin typo-66 {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 66px;
+  line-height: 70px;
+}
+
+@mixin typo-43 {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 58px;
+}
+
+@mixin typo-33 {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 36px;
+}
+
+@mixin typo-34 {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 36px;
+}
+
+@mixin typo-27 {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 30px;
+}
+
+@mixin typo-22 {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+@mixin typo-16 {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+}
+
+@mixin typo-15 {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.8px;
 }
 
 @mixin typo-14 {
@@ -16,4 +81,22 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 1.4px;
+}
+
+@mixin typo-13 {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.4px;
+}
+
+@mixin typo-12 {
+  font-family: $font-family-base;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0.7px;
 }

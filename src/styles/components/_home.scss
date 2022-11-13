@@ -1,0 +1,36 @@
+.c-home {
+  padding: 100px 0 100px;
+
+  @include media-down(md) {
+    padding: 80px 0 80px;
+  }
+
+  &__title {
+    @include typo-66;
+    color: $color-white;
+    margin-bottom: 14px;
+    margin-top: 74px;
+
+    @include media-down(md) {
+      @include typo-33;
+      margin-top: 0;
+    }
+  }
+
+  &__subtext {
+    @include typo-14;
+    color: $color-white;
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    @include typo-13;
+    color: $color-white;
+    text-transform: uppercase;
+    margin-bottom: 134px;
+
+    @include media-down(md) {
+      margin-bottom: 0;
+    }
+  }
+}

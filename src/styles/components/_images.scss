@@ -1,0 +1,52 @@
+.c-images {
+  padding-bottom: 110px;
+
+  @include media-down(md) {
+    padding-bottom: 80px;
+  }
+
+  &__title {
+    @include typo-34;
+    color: $color-black;
+    margin-bottom: 23px;
+  }
+
+  &__subtitle {
+    @include typo-16;
+    color: $color-gray-2;
+    max-width: 762px;
+    width: 100%;
+    margin: 0 auto 79px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__item {
+    margin-right: 17px;
+    margin-bottom: 17px;
+
+    &:nth-child(6) {
+      margin-right: 0;
+    }
+
+    &:nth-child(12) {
+      margin-right: 0;
+    }
+
+    &:nth-child(18) {
+      margin-right: 0;
+    }
+
+    &:nth-child(24) {
+      margin-right: 0;
+    }
+
+    @include media-down(md) {
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.c-hard {
+  padding-top: 116px;
+  padding-bottom: 38px;
+
+  @include media-down(md) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  &__title {
+    @include typo-34;
+    color: $color-black;
+    margin-bottom: 23px;
+  }
+
+  &__subtitle {
+    @include typo-16;
+    color: $color-gray-2;
+    max-width: 777px;
+    width: 100%;
+    margin: 0 auto 23px auto;
+  }
+
+  &__images {
+    img {
+      width: 100%;
+      height: auto;
+      max-width: 1052px;
+      overflow: hidden;
+    }
+  }
+}

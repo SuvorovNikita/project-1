@@ -1,0 +1,72 @@
+.c-featured {
+  padding-bottom: 65px;
+
+  @include media-down(md) {
+    padding-bottom: 0;
+  }
+
+  &__title {
+    @include typo-33;
+    margin: 0;
+    color: $color-black;
+    margin-bottom: 16px;
+  }
+
+  &__subtext {
+    @include typo-15;
+    margin: 0;
+    color: $color-gray-2;
+    margin-bottom: 52px;
+  }
+
+  &__name {
+    @include typo-13;
+    letter-spacing: 0.7px;
+    color: $color-gray-2;
+    text-align: left;
+    margin-top: 23px;
+
+    @include media-down(lg) {
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+
+  &__price {
+    @include typo-12;
+    color: $color-gray-2;
+    text-align: left;
+
+    @include media-down(lg) {
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+
+  .slick-slide img {
+    @include media-down(lg) {
+      margin: 0 auto;
+    }
+  }
+
+  .slick-track {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .slick-list {
+    overflow: hidden;
+  }
+
+  .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slick-dots li button:before {
+    @include media-down(lg) {
+      left: 50%;
+    }
+  }
+}

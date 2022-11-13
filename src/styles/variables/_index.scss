@@ -5,9 +5,11 @@ $font-family-base: 'Roboto', sans-serif;
 //Colors
 
 $color-white: #fff;
+$color-white-2: #f9f9f9;
 $color-black: #000;
 $color-gray: #e5e5e5;
 $color-gray-2: #a0a0a0;
+$color-gray-3: #707a7f;
 $color-mobile: #9aa8b1;
 // Grid Config
 
@@ -26,6 +28,7 @@ $container-max-widths: (
   lg: 944px,
   xl: 1333px,
 );
+
 $container-max-widths-sm: (
   sm: 522px,
   md: 708px,

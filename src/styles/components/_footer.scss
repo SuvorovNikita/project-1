@@ -1,0 +1,109 @@
+.c-footer {
+  padding: 77px 0 28px;
+  background: $color-white-2;
+
+  &__body {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  &__menu {
+    margin-bottom: 84px;
+  }
+
+  &__list {
+    margin: 0;
+    list-style: none;
+  }
+
+  &__link {
+    @include typo-22;
+    color: $color-black;
+    list-style: none;
+    transition: all ease-in-out 0.3s;
+
+    &:hover {
+      color: $color-gray-3;
+    }
+  }
+
+  &__list li {
+    margin-bottom: 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__registration {
+    margin-left: 35px;
+
+    @include media-down(md) {
+      margin-left: 0;
+    }
+  }
+
+  &__title {
+    @include typo-22;
+    color: $color-black;
+    margin-bottom: 23px;
+  }
+
+  &__subtitle {
+    @include typo-14;
+    letter-spacing: 0.8px;
+    color: $color-gray-2;
+    margin-bottom: 91px;
+    max-width: 352px;
+    width: 100%;
+  }
+
+  &__contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    @include media-down(md) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  &__name {
+    @include typo-13;
+    letter-spacing: 0.8px;
+    color: $color-gray-3;
+    margin-right: 37px;
+
+    @include media-down(md) {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+  }
+
+  &__links {
+    margin-right: 37px;
+    @include typo-13;
+    letter-spacing: 0.8px;
+    color: $color-gray-3;
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+
+    &:hover {
+      color: $color-black;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    @include media-down(md) {
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+  }
+}
